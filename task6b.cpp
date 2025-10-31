@@ -27,10 +27,14 @@ int main() {
     }
 
     switch (choice) {
-        case 1: speed = 258.0; break;
-        case 2: speed = 331.5; break;
-        case 3: speed = 972.0; break;
-        case 4: speed = 1270.0; break;
+        case 1: speed = 258.0;
+            break;
+        case 2: speed = 331.5; 
+            break;
+        case 3: speed = 972.0;
+            break;
+        case 4: speed = 1270.0
+            ; break;
     }
 
     distance = speed * time;
